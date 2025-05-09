@@ -3,9 +3,12 @@ import {motion} from 'framer-motion'
 import gsap from 'gsap';
 
 const projects =[
-    {command : "show project 1", name:"Portfolio Website", tech:"React Tailwind",link:'#'},
-    {command : "show project 2", name:"Dashboard UI", tech:"Javascript ",link:'#'},
-    {command : "show project 3", name:"Game Engine", tech:"Html Css WebGL",link:'#'}
+    {command : "Portfolio", name:"Portfolio Website", tech:"React Tailwind",link:'#'},
+    {command : "Office Managment system", name:"Dashboard UI", tech:"React js  ",link:'#'},
+    {command : "w3School clone", name:"w3School", tech:"Html Css javascript",link:'#'},
+    {command : "e-commerce website", name:"E-commerce website", tech:"React js Node js",link:'#'},
+    {command : "Chat Application", name: "Chat Application", tech: "React js ", link: '#'},
+    {command : "Weather App", name: "Weather App", tech: "React js ", link: '#'},
 ]
 
 const Page6 = () => {

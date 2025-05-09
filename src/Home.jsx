@@ -1,10 +1,18 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import gsap from 'gsap'
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const titleRef = useRef(null);
   const btnRef = useRef(null);
+
+  const navigate = useNavigate();
+
+
+  const exploreMyWork = () => {
+    navigate("/work");
+  }
 
 
   useEffect(()=>{
@@ -59,7 +67,7 @@ const Home = () => {
       >
         A passinate  full-staack-developer crafting interactive experiances with React GSAP & from Motion
       </motion.p>
-      <motion.button
+      <motion.button onClick={exploreMyWork}
       className="mt-6 px-6 py-3 text-lg font-semibold text-black bg-green-400 rounded-full shadow-lg transition relative z-10"
       ref={btnRef} whileHover={{scale:1.1,backgroundColor: "#00ff00", color:"#000"}}
       

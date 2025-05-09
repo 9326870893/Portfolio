@@ -5,28 +5,43 @@ const Page4 = () => {
     const projects = [
         {
             id: 1,
-            title: "AI Powered Chatbot",
-            desc: "An Intelligent chatbot that understand context and emotions.",
+            title: "E-commerce website",
+            desc: "An E-commerce website with payment integration.",
             text : "React , Node-js , OpenAI API"
         },
         {
             id: 2,
-            title: "AI Powered Chatbot",
-            desc: "An Intelligent chatbot that understand context and emotions.",
-            text : "React , Node-js , OpenAI API"
+            title: "Office Management System",
+            desc: "A complete office management system with user authentication.", 
+            text : "React , Node-js"
         },
         {
             id: 4,
-            title: "AI Powered Chatbot",
-            desc: "An Intelligent chatbot that understand context and emotions.",
-            text : "React , Node-js , OpenAI API"
+            title: "w3School Clone",
+            desc: "A clone of w3School with all features.",
+            text : "Html , Css , Javascript"
         },
         {
             id: 5,
-            title: "AI Powered Chatbot",
-            desc: "An Intelligent chatbot that understand context and emotions.",
-            text : "React , Node-js , OpenAI API"
+            title: "Portfolio Website",
+            desc: "A portfolio website to showcase my work.",
+            text : "React , Node-js , Tailwind CSS"
+            
         },
+        {
+            id: 6,
+            title: "Chat Application",
+            desc: "A chat application with real-time messaging.",
+            text : "React , Node-js , Socket.io"
+        },
+        {
+            id: 7,
+            title: "Weather App",
+            desc: "A weather app with real-time data.",
+            text : "React , Node-js , OpenWeather API"
+        },
+        
+        
     ]
     const [abc , setAbc] = useState(null);
   return (

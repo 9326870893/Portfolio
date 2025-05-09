@@ -6,12 +6,20 @@ import Page4 from './Page4'
 import Page5 from './Page5'
 import Page6 from './Page6'
 import Contact from './Contact'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Work from './Work'
 
 
 const App = () => {
   return (
     <>
-    <Home/>
+  <Router>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/work' element={<Work/>}/>
+    </Routes>
+  </Router>
+    
     <About/>
     <Page3/>
     <Page4/>
